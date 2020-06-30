@@ -38,7 +38,7 @@ public class MainController {
 	
 	public void Button2ActionMulti(ActionEvent event) {
 		FileChooser fc = new FileChooser();
-		fc.setInitialDirectory(new File("C:\\Users\\Inaki Santos\\Desktop"));
+		fc.setInitialDirectory(new File("C:"));
 		fc.getExtensionFilters().addAll(
 				new ExtensionFilter("Only PDF","*.pdf"));
 		List<File> selectedFiles = fc.showOpenMultipleDialog(null);
