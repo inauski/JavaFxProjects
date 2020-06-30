@@ -41,7 +41,7 @@ public class MainController  implements Initializable{
 	}
 	public void ImportImage(ActionEvent event) throws IOException {
 		FileChooser fc = new FileChooser();
-		fc.setInitialDirectory(new File("C:\\Users\\Inaki Santos\\Desktop"));
+		fc.setInitialDirectory(new File("C:"));
 		fc.getExtensionFilters().addAll(new ExtensionFilter("JPG","*.jpg"),
 										new ExtensionFilter("PNG","*.png"),
 										new ExtensionFilter("PDF","*.pdf"));
