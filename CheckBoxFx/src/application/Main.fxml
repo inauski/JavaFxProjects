@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="246.0" prefWidth="224.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.MainController">
+   <children>
+      <CheckBox fx:id="cbDog" layoutX="51.0" layoutY="62.0" mnemonicParsing="false" onAction="#checkEvent" text="Dog" />
+      <CheckBox fx:id="cbCat" layoutX="51.0" layoutY="105.0" mnemonicParsing="false" onAction="#checkEvent" text="Cat" />
+      <CheckBox fx:id="cbCow" layoutX="51.0" layoutY="150.0" mnemonicParsing="false" onAction="#checkEvent" text="Cow" />
+      <CheckBox fx:id="cbRat" layoutX="51.0" layoutY="190.0" mnemonicParsing="false" onAction="#checkEvent" text="Rat" />
+      <Label fx:id="lblCount" layoutX="51.0" layoutY="229.0" prefHeight="17.0" prefWidth="173.0" />
+      <Label fx:id="lblList" layoutX="130.0" layoutY="62.0" prefHeight="172.0" prefWidth="94.0" />
+      <Label ellipsisString="" layoutX="45.0" layoutY="23.0" prefHeight="17.0" prefWidth="173.0" text="CHECKBOX LIST" textFill="#101ee0">
+         <font>
+            <Font name="Cambria Bold Italic" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
